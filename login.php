@@ -26,6 +26,7 @@
         if($module =="hii")
         {
         $query = "SELECT 'username,password' FROM `accounts` WHERE username='$username'AND password='$password'";
+        
         $result = mysqli_query($con, $query);
         $rows = mysqli_num_rows($result);
         if ($rows == 1) {
