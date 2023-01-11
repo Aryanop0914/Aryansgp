@@ -51,8 +51,8 @@
                                 <ul>
                                     <li class="active"><a href="./index.html">Home</a></li>
                                     <li><a href="#">For Owners</a></li>
-                                    <li><a href="./about-us.html">About Us</a></li>
-                                    <li><a href="./contact.html">Contact</a></li>
+                                    <li><a href="#about-us">About Us</a></li>
+                                    <li><a href="#footer">Contact</a></li>
                                     <a href="login.php" id="login"><?php echo $_SESSION['username']; ?></a>
                                 
                                 </ul>
@@ -128,7 +128,7 @@
     <!-- Hero Section End -->
 
     <!-- About Us Section Begin -->
-    <section class="aboutus-section spad">
+    <section class="aboutus-section spad" id="about-us">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -445,7 +445,7 @@
     Blog Section End -->
 
     <!-- Footer Section Begin -->
-    <footer class="footer-section">
+    <footer class="footer-section" id="footer">
         <div class="container">
             <div class="footer-text">
                 <div class="row">

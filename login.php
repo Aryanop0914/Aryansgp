@@ -23,7 +23,7 @@
 
         
         // Check user is exist in the database
-        if($module =="hii")
+        if($module == "hii")
         {
         $query = "SELECT 'username,password' FROM `accounts` WHERE username='$username'AND password='$password'";
         
@@ -54,7 +54,7 @@
           <div class="slider-tab"></div>
         </div>
         <div class="form-inner">
-          <form action="post" class="login">
+          <form method="post" class="login">
             <div class="field">
               <input type="text" placeholder="Username" name="username" required>
             </div>
@@ -64,7 +64,7 @@
             <div class="pass-link"><a href="#">Forgot password?</a></div>
             <div class="field btn">
               <div class="btn-layer"></div>
-              <input type="submit" value="Login">
+              <input type="submit" value="Login" name="submit">
             </div>
             <div class="signup-link">Not a member? <a href="">Signup now</a></div>
           </form>
