@@ -34,7 +34,7 @@
     </div>
 
 
-    <!--Navbar-->
+    <!-- Navbar -->
         <div class="menu-item">
             <div class="container">
                 <div class="row">
@@ -53,7 +53,7 @@
                                     <li><a href="#">For Owners</a></li>
                                     <li><a href="#about-us">About Us</a></li>
                                     <li><a href="#footer">Contact</a></li>
-                                    <a href="login.php" id="login"><?php echo $_SESSION['username']; ?></a>
+                                    <a href="login.php" id="login"></a>
                                 
                                 </ul>
                             </nav>
@@ -62,7 +62,7 @@
                 </div>
             </div>
         </div>
-    <!-- Navbar End -->
+     <!-- Navbar End -->
     
   
 
@@ -72,14 +72,14 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="hero-text">
-                        <h1>Your Travel Home</h1>
+                        <h1>Find Your Home Away From Home.</h1>
                         <p>Here are the best travel home booking sites,wich accomodates you with a local family,keeping the culture of our country alive at every corner of it.</p>
                         <a href="#" class="primary-btn">Discover Now</a>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-5 offset-xl-2 offset-lg-1">
                     <div class="booking-form">
-                        <h3>Booking Your Hotel</h3>
+                        <h3>Book a travel home</h3>
                         <form action="#">
                             <div class="check-loc">
                                 <label for="loc">Location:</label>
@@ -137,11 +137,10 @@
                             <span>About Us</span>
                             <h2>Intercontinental LA <br />Westlake Hotel</h2>
                         </div>
-                        <p class="f-para">Homestay.com is a leading online accommodation site. We’re passionate about
-                            travel. Every day, we inspire and reach millions of travelers across 90 local websites in 41
-                            languages.</p>
-                        <p class="s-para">So when it comes to booking the perfect hotel, vacation rental, resort,
-                            apartment, guest house, or tree house, we’ve got you covered.</p>
+                        <p class="f-para">Homestay.com connects host families with students and independent travellers looking for accommodation. The Homestay 
+                            community offers you the opportunity to live with a local and to truly discover your destination.</p>
+                        <p class="s-para">We're big fans of home sharing and dedicated to offering quality rooms at wallet-friendly prices, and to giving hosts an 
+                            opportunity to rent out their spare rooms on our global marketplace.</p>
                         <a href="#" class="primary-btn about-btn">Read More</a>
                     </div>
                 </div>
@@ -173,7 +172,7 @@
             <div class="row">
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-item">
-                        <image src="/img/Favicons/True_Values.png"/>
+                        <image src="img/Favicons/True_Values.png"/>
                         <h4>True Value</h4>
                         <p>We don't just offer great prices and good long term accommodation deals,
                              we provide true value for money by giving you a priceless authentic experience.</p>
@@ -181,7 +180,7 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-item">
-                        <image src="/img/Favicons/Real_Homes.png"/>
+                        <image src="img/Favicons/Real_Homes.png"/>
                         <h4>Real Homes</h4>
                         <p>We will always offer rooms in real homes with local hosts.
                              Our accommodation is different because you stay with locals and become part of the local community.</p>
@@ -189,7 +188,7 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-item">
-                        <image src="/img/Favicons/Sustainable_tourism.png"/>
+                        <image src="img/Favicons/Sustainable_tourism.png"/>
                         <h4>Sustainable Tourism</h4>
                         <p>We promote sustainable local tourism by ensuring you're spending stays
                              within local communities, minimising your environmental impact.</p>
@@ -200,132 +199,7 @@
     </section>
     <!-- Services Section End -->
 
-    <!-- Home Room Section Begin -->
-    <!-- <section class="hp-room-section">
-        <div class="container-fluid">
-            <div class="hp-room-items">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="hp-room-item set-bg" data-setbg="img/room/room-b1.jpg">
-                            <div class="hr-text">
-                                <h3>Double Room</h3>
-                                <h2>199$<span>/Pernight</span></h2>
-                                <table>
-                                    <tbody>
-                                        <tr>
-                                            <td class="r-o">Size:</td>
-                                            <td>30 ft</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="r-o">Capacity:</td>
-                                            <td>Max persion 5</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="r-o">Bed:</td>
-                                            <td>King Beds</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="r-o">Services:</td>
-                                            <td>Wifi, Television, Bathroom,...</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <a href="#" class="primary-btn">More Details</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="hp-room-item set-bg" data-setbg="img/room/room-b2.jpg">
-                            <div class="hr-text">
-                                <h3>Premium King Room</h3>
-                                <h2>159$<span>/Pernight</span></h2>
-                                <table>
-                                    <tbody>
-                                        <tr>
-                                            <td class="r-o">Size:</td>
-                                            <td>30 ft</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="r-o">Capacity:</td>
-                                            <td>Max persion 5</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="r-o">Bed:</td>
-                                            <td>King Beds</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="r-o">Services:</td>
-                                            <td>Wifi, Television, Bathroom,...</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <a href="#" class="primary-btn">More Details</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="hp-room-item set-bg" data-setbg="img/room/room-b3.jpg">
-                            <div class="hr-text">
-                                <h3>Deluxe Room</h3>
-                                <h2>198$<span>/Pernight</span></h2>
-                                <table>
-                                    <tbody>
-                                        <tr>
-                                            <td class="r-o">Size:</td>
-                                            <td>30 ft</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="r-o">Capacity:</td>
-                                            <td>Max persion 5</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="r-o">Bed:</td>
-                                            <td>King Beds</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="r-o">Services:</td>
-                                            <td>Wifi, Television, Bathroom,...</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <a href="#" class="primary-btn">More Details</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="hp-room-item set-bg" data-setbg="img/room/room-b4.jpg">
-                            <div class="hr-text">
-                                <h3>Family Room</h3>
-                                <h2>299$<span>/Pernight</span></h2>
-                                <table>
-                                    <tbody>
-                                        <tr>
-                                            <td class="r-o">Size:</td>
-                                            <td>30 ft</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="r-o">Capacity:</td>
-                                            <td>Max persion 5</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="r-o">Bed:</td>
-                                            <td>King Beds</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="r-o">Services:</td>
-                                            <td>Wifi, Television, Bathroom,...</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <a href="#" class="primary-btn">More Details</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- Home Room Section End -->
+    
 
     <!-- Testimonial Section Begin -->
     <section class="testimonial-section spad">
@@ -381,68 +255,6 @@
         </div>
     </section>
     <!-- Testimonial Section End -->
-
-    <!-- Blog Section Begin -->
-    <!-- <section class="blog-section spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title">
-                        <span>Hotel News</span>
-                        <h2>Our Blog & Event</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="blog-item set-bg" data-setbg="img/blog/blog-1.jpg">
-                        <div class="bi-text">
-                            <span class="b-tag">Travel Trip</span>
-                            <h4><a href="#">Tremblant In Canada</a></h4>
-                            <div class="b-time"><i class="icon_clock_alt"></i> 15th April, 2019</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="blog-item set-bg" data-setbg="img/blog/blog-2.jpg">
-                        <div class="bi-text">
-                            <span class="b-tag">Camping</span>
-                            <h4><a href="#">Choosing A Static Caravan</a></h4>
-                            <div class="b-time"><i class="icon_clock_alt"></i> 15th April, 2019</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="blog-item set-bg" data-setbg="img/blog/blog-3.jpg">
-                        <div class="bi-text">
-                            <span class="b-tag">Event</span>
-                            <h4><a href="#">Copper Canyon</a></h4>
-                            <div class="b-time"><i class="icon_clock_alt"></i> 21th April, 2019</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-8">
-                    <div class="blog-item small-size set-bg" data-setbg="img/blog/blog-wide.jpg">
-                        <div class="bi-text">
-                            <span class="b-tag">Event</span>
-                            <h4><a href="#">Trip To Iqaluit In Nunavut A Canadian Arctic City</a></h4>
-                            <div class="b-time"><i class="icon_clock_alt"></i> 08th April, 2019</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="blog-item small-size set-bg" data-setbg="img/blog/blog-10.jpg">
-                        <div class="bi-text">
-                            <span class="b-tag">Travel</span>
-                            <h4><a href="#">Traveling To Barcelona</a></h4>
-                            <div class="b-time"><i class="icon_clock_alt"></i> 12th April, 2019</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    Blog Section End -->
 
     <!-- Footer Section Begin -->
     <footer class="footer-section" id="footer">
