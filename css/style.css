@@ -354,6 +354,12 @@ ul, ol {
 /*---------------------
   Hero
 -----------------------*/
+.info{
+    opacity:0.9;
+	padding: 44px 40px 50px 40px;
+	/* border-radius: 4px; */
+	
+}
 
 .hero-section {
 	position: relative;
@@ -367,17 +373,18 @@ ul, ol {
 .hero-text {
 	padding-top: 145px;
 }
-.hero-text h1 {
-	font-size: 80px;
+.info h1 {
+	font-size: 70px;
 	line-height: 90px;
-	color: #ffffff;
+	color: #000000;
 	margin-bottom: 16px;
 }
-.hero-text p {
-	font-size: 18px;
-	color: #ffffff;
+.info p {
+	font-size: 20px;
+	color: #000000;
 	line-height: 28px;
 	margin-bottom: 35px;
+	font-weight: bold;
 }
 .booking-form {
 	background: #ffffff;
@@ -493,6 +500,7 @@ ul, ol {
 	height: 100%;
 	left: 0;
 	top: 0;
+	opacity:0.5;
 }
 .hero-slider.owl-carousel .owl-dots {
 	position: absolute;
