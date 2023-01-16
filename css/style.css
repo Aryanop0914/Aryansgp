@@ -274,9 +274,10 @@ ul, ol {
 -----------------------*/
 
 .menu-item {
-	position: fixed;
+	position: relative;
 	z-index: 9;
 	overflow: hidden;
+	
 }
 .menu-item .logo {
 	padding: 25px 0;
